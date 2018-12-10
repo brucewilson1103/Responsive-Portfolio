@@ -216,3 +216,35 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 640px) {
+  
+  #main-container { margin: 0 auto;
+    width:60%;
+  
+  }
+  .header {
+    position:static;
+    width: 100%;
+    margin: 0 auto;
+
+  }
+
+
+  .work {
+    width: 100%;
+  
+  }
+  #logo{
+    margin: 0 auto;
+    width: 100%;
+
+  }
+  .nav1{
+    width:80%;
+    margin: 0 auto;
+  }
+  h3{
+    height: 20%;
+  }
+}
