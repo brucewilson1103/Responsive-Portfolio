@@ -217,8 +217,12 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 640px) {
-  
+@media screen and (max-width: 640px)
+
+{
+  body{
+    background-color: grey;
+  }
   #main-container { margin: 0 auto;
     width:60%;
   
@@ -241,10 +245,14 @@ input[type=submit] {
 
   }
   .nav1{
-    width:80%;
+    width:90%;
     margin: 0 auto;
   }
   h3{
     height: 20%;
   }
+  .auth-image {
+    width: 100%;
+  }
 }
+
